@@ -26,6 +26,14 @@
 
 <ul>
 <li>The <em>scran</em> package is designed for low-level analyses of scRNA-seq data. It is officially available as part of the open-source Bioconductor project (<a href="http://bioconductor.org/packages/scran">http://bioconductor.org/packages/scran</a>), but the in-house experimental version can be obtained at <a href="https://github.com/MarioniLab/scran">https://github.com/MarioniLab/scran</a>.</li>
+
+<li>The <em>BASiCS</em> (Bayesian Analysis of Single-Cell Sequencing
+    data) package provides a tool to analyse scRNA-seq data. BASiCS is based on an integrated Bayesian hierarchical model which borrows information from technical spike-in genes to jointly deal with normalization, the quantification of technical variability and downstream analyses. These include the detection of highly/lowly variable genes within a population of cells, as well as the detection of differentially expressed genes (mean and over-dispersion) between two or more pre-specified populations of cells. BASiCS is currently available at <a href="https://github.com/catavallejos/BASiCS">https://github.com/catavallejos/BASiCS</a></li> and will be shortly submitted to be part of the Bioconductor project. For more details about the modelling strategy implemented in BASiCS, please refer to
+    <ul>
+            <li>Vallejos, Marioni and Richardson (2015). <a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004333">BASiCS: Bayesian Analysis of Single-Cell Sequencing data.</a> <i>PLoS Computational Biology</i> 11, e1004333. </li>
+            <li>Vallejos, Richardson and Marioni (2016). <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0930-3">Beyond comparisons of means: under- standing changes in gene expression at the single-cell level.</a> <i>Genome Biology</i> 17.</li>
+    </ul>
+    BASiCS is a joint work with <a href="http://www.mrc-bsu.cam.ac.uk/people/in-alphabetical-order/n-to-s/sylvia-richardson/">Prof Sylvia Richardson</a> (MRC Biostatistics Unit).
 </ul>
 
 <h1>
@@ -34,6 +42,7 @@
 <ul>
 <li>Simulation code for the normalization-by-pooling paper (<a href="http://doi.org/10.1186/s13059-016-0947-7">Genome Biology, 2016</a>) can be obtained at <a href="https://github.com/MarioniLab/Deconvolution2016">https://github.com/MarioniLab/Deconvolution2016</a>.</li>
 <li>The scRNA-seq low-level analysis workflow based on <em>scran</em> and other Bioconductor packages can be obtained at <a href="https://github.com/MarioniLab/BiocWorkflow2016">https://github.com/MarioniLab/BiocWorkflow2016</a>.</li>
+<li>Tutorial about the usage of <em>BASiCS</em> for the detection of highly/lowly variable genes <a href="https://github.com/catavallejos/TutorialBASiCS">https://github.com/catavallejos/TutorialBASiCS</a>.</li>
 </ul>
 
 <h1>

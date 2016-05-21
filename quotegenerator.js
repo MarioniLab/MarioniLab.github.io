@@ -1,36 +1,36 @@
 // Nicked from http://codepen.io/kkoutoup/pen/zxmGLE
 var quoteSource=[
     {
-        quote:"Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.",
-        name:"Francis of Assisi"
+        quote:"It seems to work.",
+        name:"Aaron"
     },
     {
-        quote:"Believe you can and you're halfway there.",
-        name:"Theodore Roosevelt"
+        quote:"Close enough is good enough.",
+        name:"Aaron"
     },
     {   
-        quote:"Keep your eyes on the stars, and your feet on the ground.",
-        name:"Theodore Roosevelt"
+        quote:"Measure once and cut twice.",
+        name:"Aaron"
     },
     {
-        quote:"It always seems impossible until it's done.",
-        name:"Nelson Mandela"
+        quote:"It builds character.",
+        name:"Aaron"
     },
     {
-        quote:"Aim for the moon. If you miss, you may hit a star.",
-        name:"W. Clement Stone"
+        quote:"Ah, aesthetics. My old nemesis.",
+        name:"Aaron"
     },
     {
-        quote:"Knowing is not enough; we must apply. Wishing is not enough; we must do.",
-        name:"Johann Wolfgang Von Goethe"
+        quote:"Aaron, someone could make a book out of all the stupid things you say.",
+        name:"Nils"
     },
     {
-        quote:"Whether you think you can or think you can't, you’re right.",
-        name:"Henry Ford"
+        quote:"Holidays are for chumps.",
+        name:"Aaron"
     },
     {
-        quote:"I’m a greater believer in luck, and I find the harder I work the more I have of it.",
-        name:"Thomas Jefferson"
+        quote:"Of course I know what I'm doing.",
+        name:"Aaron"
     },
     {
         quote:"A dream doesn’t become reality through magic; it takes sweat, determination and hard work.",

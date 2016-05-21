@@ -1,7 +1,7 @@
 // Nicked from http://codepen.io/kkoutoup/pen/zxmGLE
 var quoteSource=[
     {
-        quote:"Check out <i>scran</i>: computational food for the single-cell mind.",
+        quote:"Scrounging for <i>scran</i>: computational food for the single-cell mind.",
         name:"Aaron"
     },
     {
@@ -9,7 +9,7 @@ var quoteSource=[
         name:"Catalina"
     },
     {   
-        quote:"Much ado about nothing? Read our normalization paper on zeros in RNA-seq data.",
+        quote:"Much ado about nothing? Read our 2016 paper on normalizing scRNA-seq data with zeros.",
         name:"Aaron"
     },
 ];

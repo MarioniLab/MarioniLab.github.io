@@ -1,12 +1,48 @@
 // Nicked from http://codepen.io/kkoutoup/pen/zxmGLE
 var quoteSource=[
     {
-        quote: "Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.",
+        quote:"Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.",
         name:"Francis of Assisi"
     },
     {
         quote:"Believe you can and you're halfway there.",
         name:"Theodore Roosevelt"
+    },
+    {   
+        quote:"Keep your eyes on the stars, and your feet on the ground.",
+        name:"Theodore Roosevelt"
+    },
+    {
+        quote:"It always seems impossible until it's done.",
+        name:"Nelson Mandela"
+    },
+    {
+        quote:"Aim for the moon. If you miss, you may hit a star.",
+        name:"W. Clement Stone"
+    },
+    {
+        quote:"Knowing is not enough; we must apply. Wishing is not enough; we must do.",
+        name:"Johann Wolfgang Von Goethe"
+    },
+    {
+        quote:"Whether you think you can or think you can't, you’re right.",
+        name:"Henry Ford"
+    },
+    {
+        quote:"I’m a greater believer in luck, and I find the harder I work the more I have of it.",
+        name:"Thomas Jefferson"
+    },
+    {
+        quote:"A dream doesn’t become reality through magic; it takes sweat, determination and hard work.",
+        name:"Colin Powell"
+    },
+    {
+        quote:"If you don’t burn out at the end of each day, you're a bum.",
+        name:"George Lois"
+    },
+    {
+        quote:"Let me tell you the secret that has led me to my goals: my strength lies solely in my tenacity.",
+        name:"Louis Pasteur"
     },
     {
         quote:"It does not matter how slowly you go as long as you do not stop.",
@@ -25,10 +61,6 @@ var quoteSource=[
         name:"Sam Levenson"
     },
     {
-        quote:"A creative man is motivated by the desire to achieve, not by the desire to beat others.",
-        name:"Ayn Rand"
-    },
-    {
         quote:"Expect problems and eat them for breakfast.",
         name:"Alfred A. Montapert"
     },
@@ -37,16 +69,8 @@ var quoteSource=[
         name:"Arthur Ashe"
     },
     {
-        quote:"Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better.",
+        quote:"Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.",
         name:"Samuel Beckett"
-    },
-    {
-        quote:"Be yourself; everyone else is already taken.",
-        name:"Oscar Wilde"
-    },
-    {
-        quote:"Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
-        name:"Albert Einstein"
     },
     {
         quote:"People who think they know everything are a great annoyance to those of us who do.",
@@ -60,14 +84,11 @@ var quoteSource=[
         quote:"Always do whatever's next.",
         name:"George Carlin"
     },
-    {
-        quote:"Happiness is not something ready made. It comes from your own actions.",
-        name:"Dalai Lama"
-    }
+
 ];
 
 var randomquote = Math.floor(Math.random()*(quoteSource.length));
 function printquote(){
-    document.write('<p><i>"'+quoteSource[randomquote].quote+'"</i></p><p><b>'+quoteSource[randomquote].name+'</b><p>');
+    document.write('<i>"'+quoteSource[randomquote].quote+'"</i> &ndash; <b>'+quoteSource[randomquote].name+'</b>');
 }
 

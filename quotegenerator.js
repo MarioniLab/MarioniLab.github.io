@@ -1,7 +1,7 @@
 // Nicked from http://codepen.io/kkoutoup/pen/zxmGLE
 var quoteSource=[
     {
-        quote:"It seems to work.",
+        quote:"It seems to work. But who knows?",
         name:"Aaron"
     },
     {
@@ -33,58 +33,13 @@ var quoteSource=[
         name:"Aaron"
     },
     {
-        quote:"A dream doesn’t become reality through magic; it takes sweat, determination and hard work.",
-        name:"Colin Powell"
+        quote:"Sigh.",
+        name:"Aaron"
     },
     {
-        quote:"If you don’t burn out at the end of each day, you're a bum.",
-        name:"George Lois"
+        quote:"Something something random variables something something.",
+        name:"Catalina"
     },
-    {
-        quote:"Let me tell you the secret that has led me to my goals: my strength lies solely in my tenacity.",
-        name:"Louis Pasteur"
-    },
-    {
-        quote:"It does not matter how slowly you go as long as you do not stop.",
-        name:"Confucius"
-    },
-    {
-        quote:"Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
-        name:"Thomas A. Edison"
-    },
-    {
-        quote:"The will to win, the desire to succeed, the urge to reach your full potential... these are the keys that will unlock the door to personal excellence.",
-        name:"Confucius"
-    },
-    {
-        quote:"Don't watch the clock; do what it does. Keep going.",
-        name:"Sam Levenson"
-    },
-    {
-        quote:"Expect problems and eat them for breakfast.",
-        name:"Alfred A. Montapert"
-    },
-    {
-        quote:"Start where you are. Use what you have. Do what you can.",
-        name:"Arthur Ashe"
-    },
-    {
-        quote:"Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.",
-        name:"Samuel Beckett"
-    },
-    {
-        quote:"People who think they know everything are a great annoyance to those of us who do.",
-        name:"Isaac Asimov"
-    },
-    {
-        quote:"Don't sweat the petty things and don't pet the sweaty things.",
-        name:"George Carlin"
-    },
-    {
-        quote:"Always do whatever's next.",
-        name:"George Carlin"
-    },
-
 ];
 
 var randomquote = Math.floor(Math.random()*(quoteSource.length));
